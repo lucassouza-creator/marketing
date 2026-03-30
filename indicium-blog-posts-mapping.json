@@ -1,0 +1,129 @@
+{
+  "description": "Posts do Content Hub PT-BR que mencionam 'Indicium' mas NÃO 'Indicium AI' (nome pré-rebranding).",
+  "site": "Indicium AI (695fda9a67d79f8741c387ba)",
+  "collection": "Content Hub Posts (69666cc2070439f1bc1173cf)",
+  "locale": "Portuguese (Brazil) — pt-BR",
+  "total_flagged": 24,
+  "posts": [
+    {
+      "id": "69970636feb65ce55491420a",
+      "name": "Como a IA está transformando a gestão de Smart Grids",
+      "slug": "como-ia-esta-transformando-gestao-smart-grids"
+    },
+    {
+      "id": "6997063542f73c3105a60308",
+      "name": "Quatro tendências de IA Empresarial e o que elas significam para sua organização",
+      "slug": "quatro-tendencias-ia-empresarial-significam-para-sua-organizacao"
+    },
+    {
+      "id": "698f161def10bc55139cc1df",
+      "name": "Aumento de preço do Power BI: reduza custos e otimize o TCO",
+      "slug": "aumento-preco-power-bi-2025"
+    },
+    {
+      "id": "698e58956c94553d8c027e74",
+      "name": "Conheça o IndiMesh, nosso framework de software e serviços com IA integrada",
+      "slug": "indimesh-framework-ia"
+    },
+    {
+      "id": "698e3517a3a8953082df5cc5",
+      "name": "Como as parcerias da Databricks estão moldando o futuro das plataformas de dados e IA",
+      "slug": "parcerias-databricks-dados-ia"
+    },
+    {
+      "id": "698e2dc19e83acc74da7aedf",
+      "name": "Versionamento de código na Databricks: boas práticas e ferramentas",
+      "slug": "versionamento-databricks"
+    },
+    {
+      "id": "698cd603d091bac674d5e16b",
+      "name": "IndiMesh: framework de serviços de dados baseado em Inteligência Coletiva",
+      "slug": "framework-servicos-dados-inteligencia-coletiva"
+    },
+    {
+      "id": "698cd4a4355d09ef475b1926",
+      "name": "Migração do Power BI Premium: modernize sua infraestrutura de dados",
+      "slug": "power-bi-premium-microsoft-fabric-migracao"
+    },
+    {
+      "id": "698b79f1be2cff58cdde292f",
+      "name": "IndiMesh em ação: como o controle de qualidade rigoroso sustenta a excelência em escala",
+      "slug": "controle-qualidade-rigoroso-indimesh"
+    },
+    {
+      "id": "698b6c0fdd3dcb6ab13f95ea",
+      "name": "IndiMesh e entrega de dados com IA: escale com experiência comprovada",
+      "slug": "entrega-dados-ia-indimesh"
+    },
+    {
+      "id": "698a49d0aa19e254d80f17db",
+      "name": "Data + AI Summit 2025: atualizações da Databricks e impacto na execução",
+      "slug": "data-ai-summit-2025-atualizacoes-databricks"
+    },
+    {
+      "id": "698a3bb8693b00211a2dca53",
+      "name": "UX Design em projetos de dados: descubra os benefícios",
+      "slug": "ux-design-produtos-dados"
+    },
+    {
+      "id": "698a346cc6554eb495463b73",
+      "name": "Adoção de IA no setor financeiro: sistemas de dados ultrapassados ainda travam as empresas?",
+      "slug": "adocao-ia-setor-financeiro-sistemas-dados"
+    },
+    {
+      "id": "6986565f4eb2d5c03a186a73",
+      "name": "Como o setor financeiro pode acelerar a maturidade em IA: principais insights da pesquisa",
+      "slug": "setor-financeiro-acelerar-maturidade-ia"
+    },
+    {
+      "id": "698513800eef871e541dc3fc",
+      "name": "Decisões data-driven na era da IA",
+      "slug": "decisoes-data-driven-ia"
+    },
+    {
+      "id": "698506bdf56aea05049fb473",
+      "name": "Infraestrutura de dados: o elo que destrava a adoção de IA",
+      "slug": "infraestrutura-dados-adocao-ia"
+    },
+    {
+      "id": "698243982f2595d8dc5503a5",
+      "name": "Diagnóstico de Maturidade em IA: descubra seu estágio e escale a IA",
+      "slug": "diagnostico-maturidade-ia"
+    },
+    {
+      "id": "6980ae7b50c2fb47dbacbf29",
+      "name": "Data Mesh em Serviços Financeiros: supere os desafios de gestão de dados",
+      "slug": "data-mesh-servicos-financeiros"
+    },
+    {
+      "id": "697bcd3911f2ab76df3aa0de",
+      "name": "Como aceleradores cross-industry impulsionam a empresa autônoma",
+      "slug": "aceleradores-empresa-autonoma"
+    },
+    {
+      "id": "697a4cc1c1bff50504a3050b",
+      "name": "Prompt2Pipeline: agentes de IA aceleram a modernização de dados",
+      "slug": "prompt2pipeline-agentes-migracao-ia"
+    },
+    {
+      "id": "697a297db64648284e8cb91d",
+      "name": "Inteligência de Portfólio: acelere resultados com GenAI",
+      "slug": "inteligencia-portfolio-genai"
+    },
+    {
+      "id": "6978d3ee805ffe6f056818f5",
+      "name": "Discovery de Produtos de Dados e IA: Empresa de saúde economiza em migração",
+      "slug": "discovery-produtos-dados-ia-saude"
+    },
+    {
+      "id": "6973f2672341f73b2ff201b5",
+      "name": "IA para gestão de portfólio: Elypath alcança 50% mais eficiência",
+      "slug": "ia-para-gestao-portfolio"
+    },
+    {
+      "id": "6973cbb7d867a3776d01d078",
+      "name": "Modernização e migração de dados: líder em tecnologia reduz tempo de execução em 97%",
+      "slug": "modernizacao-migracao-lider-tecnologia"
+    }
+  ]
+}
