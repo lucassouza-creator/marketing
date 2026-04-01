@@ -1,0 +1,257 @@
+{
+  "description": "Mapeamento de imagens do site Indicium AI (Webflow) com análise de performance.",
+  "site": "Indicium AI (695fda9a67d79f8741c387ba)",
+  "generated": "2026-04-01",
+  "cdn_base": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/",
+  "summary": {
+    "total_assets": 113,
+    "raster_images": 67,
+    "svg_vectors": 46,
+    "by_format": {
+      "png":  { "count": 26, "risk": "ALTO — formato sem compressão avançada; prioridade máxima de conversão" },
+      "avif": { "count": 30, "risk": "BAIXO — formato moderno, bem comprimido" },
+      "jpg":  { "count": 2,  "risk": "MÉDIO — compressão aceitável, mas inferior ao AVIF/WebP" },
+      "webp": { "count": 1,  "risk": "BAIXO — formato eficiente" },
+      "svg":  { "count": 46, "risk": "NENHUM — vetorial, independe de resolução" },
+      "avif_video_poster": { "count": 1, "risk": "MÉDIO — poster de vídeo deve ser leve" }
+    }
+  },
+
+  "critical_images": {
+    "label": "🔴 CRÍTICAS — PNGs de alta resolução ou uso estrutural pesado",
+    "items": [
+      {
+        "id": "69c427908be9f53c32344d8b",
+        "name": "Hero-back-symposium.png",
+        "format": "png",
+        "category": "hero / background",
+        "risk": "CRÍTICO",
+        "reason": "Imagem de fundo de hero — tipicamente 1920px+. PNG sem compressão moderna.",
+        "recommendation": "Converter para AVIF ou WebP. Comprimir com squoosh.app ou sharp. Considerar lazy-load abaixo do fold.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/69c427908be9f53c32344d8b_Hero-back-symposium.png"
+      },
+      {
+        "id": "6994ab21fe33d11e8d7ca7f4",
+        "name": "Site_Indicium-AI_elements_photo-3.png",
+        "format": "png",
+        "category": "foto editorial",
+        "risk": "CRÍTICO",
+        "reason": "Foto em PNG — fotografias têm compressão muito melhor em AVIF/JPG.",
+        "recommendation": "Exportar como AVIF (qualidade 70–80%). Redimensionar para a largura máxima exibida.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6994ab21fe33d11e8d7ca7f4_Site_Indicium-AI_elements_photo-3.png"
+      },
+      {
+        "id": "6994aade12c7268eee135bf1",
+        "name": "Site_Indicium-AI_elements_photo-1.png (3.png)",
+        "format": "png",
+        "category": "foto editorial",
+        "risk": "CRÍTICO",
+        "reason": "Foto em PNG — mesmo problema do photo-3.",
+        "recommendation": "Converter para AVIF.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6994aade12c7268eee135bf1_Site_Indicium-AI_elements_photo-1.png"
+      },
+      {
+        "id": "6978ccff21903ce3d374336c",
+        "name": "Open-graph.png",
+        "format": "png",
+        "category": "OG / social sharing",
+        "risk": "CRÍTICO",
+        "reason": "Imagem Open Graph — dimensão padrão 1200×630px. PNG a esse tamanho é sempre pesado.",
+        "recommendation": "Converter para JPG (qualidade 85) ou AVIF. OG images não precisam de transparência.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6978ccff21903ce3d374336c_Open-graph.png"
+      },
+      {
+        "id": "695fda9a67d79f8741c387cb",
+        "name": "style-guide.png",
+        "format": "png",
+        "category": "interno / style guide",
+        "risk": "ALTO",
+        "reason": "Guia de estilo em PNG — provavelmente grande e não visível ao usuário final. Verificar se está sendo usado em produção.",
+        "recommendation": "Remover do site publicado se não for exibida. Se necessário, converter para WebP.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/695fda9a67d79f8741c387cb_style-guide.png"
+      },
+      {
+        "id": "695fda9a67d79f8741c387cc",
+        "name": "Starter+Project+blur.png",
+        "format": "png",
+        "category": "background blur",
+        "risk": "ALTO",
+        "reason": "Imagem de blur de fundo — efeitos de blur devem ser feitos via CSS (backdrop-filter), não com PNG.",
+        "recommendation": "Substituir por CSS `backdrop-filter: blur()` ou usar SVG com filtro. Pode ser removida.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/695fda9a67d79f8741c387cc_Starter%2BProject%2Bblur.png"
+      },
+      {
+        "id": "69c42953b6939885964a35d2",
+        "name": "Outline-symposium.png",
+        "format": "png",
+        "category": "evento / symposium",
+        "risk": "ALTO",
+        "reason": "PNG de evento — dependendo da resolução, pode ser pesado.",
+        "recommendation": "Converter para SVG (se for um gráfico/outline) ou AVIF.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/69c42953b6939885964a35d2_Outline-symposium.png"
+      }
+    ]
+  },
+
+  "medium_risk_images": {
+    "label": "🟡 MÉDIAS — PNGs menores ou AVIFs com dimensões grandes",
+    "items": [
+      {
+        "id": "6995e3d4c9a1bfb45aac3201",
+        "name": "Portugal-condensed.png",
+        "format": "png",
+        "category": "mapa / localização",
+        "risk": "MÉDIO",
+        "reason": "Imagem de país/mapa em PNG. 'condensed' sugere que foi redimensionada, mas PNG preserva pixels.",
+        "recommendation": "Converter para AVIF.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6995e3d4c9a1bfb45aac3201_Portugal-condensed.png"
+      },
+      {
+        "id": "6995e3ca2b41280dd3bd9ef4",
+        "name": "Brazil-condensed.png",
+        "format": "png",
+        "category": "mapa / localização",
+        "risk": "MÉDIO",
+        "reason": "Mesmo problema do Portugal-condensed.png.",
+        "recommendation": "Converter para AVIF.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6995e3ca2b41280dd3bd9ef4_Brazil-condensed.png"
+      },
+      {
+        "id": "6994e0e3ce86f081ae076e61",
+        "name": "7.png",
+        "format": "png",
+        "category": "desconhecida (sem nome descritivo)",
+        "risk": "MÉDIO",
+        "recommendation": "Identificar uso, renomear e converter para AVIF se for imagem fotográfica.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6994e0e3ce86f081ae076e61_7.png"
+      },
+      {
+        "id": "6994e0d50009f8aeac39a97f",
+        "name": "11.png",
+        "format": "png",
+        "category": "desconhecida (sem nome descritivo)",
+        "risk": "MÉDIO",
+        "recommendation": "Identificar uso, renomear e converter para AVIF.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6994e0d50009f8aeac39a97f_11.png"
+      },
+      {
+        "id": "6994e09199ca202fe155bc70",
+        "name": "2.png",
+        "format": "png",
+        "category": "desconhecida (sem nome descritivo)",
+        "risk": "MÉDIO",
+        "recommendation": "Identificar uso, renomear e converter para AVIF.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6994e09199ca202fe155bc70_2.png"
+      },
+      {
+        "id": "697a1cf0f471c1e3937be68f",
+        "name": "Mapbox Static Image 1280x800.avif",
+        "format": "avif",
+        "category": "mapa estático",
+        "risk": "MÉDIO",
+        "reason": "1280×800px — resolução alta para um mapa. AVIF é eficiente, mas a dimensão pode ser reduzida.",
+        "recommendation": "Verificar tamanho de exibição real. Gerar versões responsivas (640px, 960px, 1280px) com srcset.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/697a1cf0f471c1e3937be68f_7133e40846efe3cc1795b06ad8d4d377_Mapbox%20Static%20Image%201280x800.avif"
+      },
+      {
+        "id": "696fb2d5834c3435a8b2f3bc",
+        "name": "acadamy-hero.avif",
+        "format": "avif",
+        "category": "hero / academy",
+        "risk": "MÉDIO",
+        "reason": "Hero images são carregadas acima do fold (LCP). Deve ter tamanho controlado.",
+        "recommendation": "Verificar se há preload (`<link rel=preload>`). Manter abaixo de 150KB. Usar srcset.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/696fb2d5834c3435a8b2f3bc_acadamy-hero.avif"
+      },
+      {
+        "id": "698cdd7ff2756a6f1fde295d",
+        "name": "poster.avif",
+        "format": "avif",
+        "category": "poster de vídeo",
+        "risk": "MÉDIO",
+        "reason": "Poster de vídeo deve ser uma imagem leve, exibida antes do vídeo carregar.",
+        "recommendation": "Manter abaixo de 50KB. Reduzir qualidade se necessário.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/698cdd7ff2756a6f1fde295d_poster.avif"
+      },
+      {
+        "id": "699ee0eefde6131042bd1abc",
+        "name": "Linkedin Banner-employee.jpg",
+        "format": "jpg",
+        "category": "banner LinkedIn / social",
+        "risk": "MÉDIO",
+        "reason": "Banner LinkedIn em JPG — dimensão típica 1584×396px.",
+        "recommendation": "Verificar se é exibido no site. Se for decorativo, converter para AVIF e redimensionar.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/699ee0eefde6131042bd1abc_Linkedin%20Banner-employee.jpg"
+      },
+      {
+        "id": "6978ef0f83416a69fd8ce4d4",
+        "name": "38a6c1bed4e28542a883a73a9245a599 (2).jpg",
+        "format": "jpg",
+        "category": "desconhecida (nome de hash)",
+        "risk": "MÉDIO",
+        "reason": "Nome de arquivo é um hash — provavelmente upload automático. Sem contexto de uso.",
+        "recommendation": "Identificar uso, renomear e converter para AVIF.",
+        "url": "https://cdn.prod.website-files.com/695fda9a67d79f8741c387ba/6978ef0f83416a69fd8ce4d4_38a6c1bed4e28542a883a73a9245a599%20(2).jpg"
+      }
+    ]
+  },
+
+  "low_risk_images": {
+    "label": "🟢 BAIXO RISCO — AVIF/WebP/SVG otimizados",
+    "items": [
+      { "name": "sao paulo.avif", "format": "avif", "category": "localização" },
+      { "name": "London.avif (698c)", "format": "avif", "category": "localização" },
+      { "name": "London.avif (696f)", "format": "avif", "category": "localização", "note": "⚠️ DUPLICATA — mesmo nome que o arquivo acima. Verificar se ambos são necessários." },
+      { "name": "image 672.avif", "format": "avif", "category": "conteúdo" },
+      { "name": "lisbon map.avif", "format": "avif", "category": "mapa" },
+      { "name": "brazil map.avif", "format": "avif", "category": "mapa" },
+      { "name": "Frame 34625646.avif", "format": "avif", "category": "conteúdo" },
+      { "name": "US.avif", "format": "avif", "category": "localização" },
+      { "name": "Brazil.avif", "format": "avif", "category": "localização" },
+      { "name": "PFP - 01/02/03.avif", "format": "avif", "category": "perfil / pessoas" },
+      { "name": "acadamy-hero.avif", "format": "avif", "category": "hero" },
+      { "name": "Backplate - Placeholder.avif", "format": "avif", "category": "placeholder" },
+      { "name": "databricks-logo.webp", "format": "webp", "category": "logo parceiro" },
+      { "name": "Todos os 46 arquivos .svg", "format": "svg", "category": "ícones, logos, UI" }
+    ]
+  },
+
+  "issues": [
+    {
+      "type": "DUPLICATAS",
+      "description": "Dois arquivos chamados 'London.avif' com IDs diferentes (698c5aff e 696fa451). Verificar qual está em uso e remover o redundante."
+    },
+    {
+      "type": "LOGOS DUPLICADOS EM MÚLTIPLOS FORMATOS",
+      "description": "OpenAI e Anthropic têm logos em PNG e SVG ao mesmo tempo. Manter apenas SVG para logos vetoriais.",
+      "affected": ["OpenAI_Logo.png + open ai.svg", "Anthropic_logo.png + Anthropic_logo.svg"]
+    },
+    {
+      "type": "NOMES SEM SEMÂNTICA",
+      "description": "Arquivos com nomes genéricos (2.png, 7.png, 11.png) dificultam manutenção e rastreamento de uso.",
+      "affected": ["2.png", "7.png", "11.png", "38a6c1...jpg", "image 672.avif"]
+    },
+    {
+      "type": "ALT TEXT AUSENTE",
+      "description": "A maioria dos assets tem altText: null. Isso prejudica SEO e acessibilidade (WCAG).",
+      "recommendation": "Preencher alt text em todos os assets via Webflow Assets Manager."
+    },
+    {
+      "type": "PNG USADO PARA FOTOS",
+      "description": "Fotografias salvas como PNG desperdiçam entre 3× a 10× mais espaço que AVIF equivalente.",
+      "affected": ["Hero-back-symposium.png", "Site_Indicium-AI_elements_photo-3.png", "Site_Indicium-AI_elements_photo-1.png"]
+    }
+  ],
+
+  "recommendations_priority": [
+    "1. Converter Hero-back-symposium.png → AVIF (maior impacto em LCP da página do Symposium)",
+    "2. Converter fotos editoriais PNG → AVIF (photo-1, photo-3)",
+    "3. Converter Open-graph.png → JPG ou AVIF",
+    "4. Remover ou substituir Starter+Project+blur.png por CSS backdrop-filter",
+    "5. Investigar e renomear assets sem nome descritivo (2.png, 7.png, 11.png)",
+    "6. Deduplicar London.avif — manter apenas um",
+    "7. Remover logos PNG redundantes (OpenAI, Anthropic) onde SVG já existe",
+    "8. Preencher alt text em todos os 113 assets",
+    "9. Verificar se style-guide.png está em uso em produção — se não, remover"
+  ]
+}
